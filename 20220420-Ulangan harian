@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    /*
+    nilai = (tugas *0.3) + (uts *0.3) + (uas *0.4)
+    */
+    int nilai;
+    cout<<"Masukkan tugas + uts + uas"; cin>>nilai;
+    if (nilai > 100) {
+        cout<<"di luar jangkauan";
+}
+    else if (0.3 +  0.3 + 0.4 <= 100) {
+        cout<<"tuntas";
+}
+     else  {
+        cout<<" ";
+}
+    return 0;
+}
