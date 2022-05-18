@@ -4,7 +4,7 @@ int main(){
     
     
     int hari,jam,menit,detik; 
-    cout<<"❤ program konversi detik ke jam menit dan detik ❤ "<<endl;
+    cout<<"❤ program konversi detik ke hari jam dan menit ❤ "<<endl;
     cout<<" masukkan jumlah detik yang mau di hitung : ";
     cin>>detik;
     
